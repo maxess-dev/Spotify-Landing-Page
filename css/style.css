@@ -1,0 +1,165 @@
+/* /// FONTS /// */
+
+@font-face{
+    font-family: "circular-book";
+    src: url("../fonts/Circular/circular-book.woff2");
+}
+
+@font-face{
+    font-family: "circular-light";
+    src: url("../fonts/Circular/circular-light.woff2");
+}
+
+@font-face{
+    font-family: "circular-bold";
+    src: url("../fonts/Circular/circular-bold.woff2");
+}
+
+
+/* /// GENERAL /// */
+
+
+body{
+    font-family: "circular-book" , Arial, Helvetica, sans-serif; 
+}
+
+i{
+    position: relative;
+    top: 5px;
+    font-size: 1.55em;
+}
+
+h1{
+    font-family: "circular-bold",Arial, Helvetica, sans-serif;
+    font-size: 3.6em;
+    line-height: 1.2em;
+    color: black;
+    font-weight: 900 !important;
+}
+
+h3{
+    font-size: 1.3em;
+    font-family: "circular-light", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.70em;
+    color: black;
+}
+
+h5{
+    font-size: 1.16em;
+    font-weight: bold;
+    line-height: 1.70em;
+    color: black;
+}
+
+h6{
+    font-family: "circular-light";
+    font-size: 0.98em;
+    font-weight: bold;
+    line-height: 1.70em;
+    color: black;
+}
+
+p{
+    font-size: 0.8em;
+    color: rgb(158, 158, 158);
+}
+
+
+img{
+    width: 425px;
+}
+
+.navbar-brand{
+    font-size: 1.55em;
+    font-weight: bold;
+}
+
+.landing{
+    background-color: rgb(255,205,210);
+    padding-bottom: 70px;
+}
+
+
+.landing3{
+background-color: rgba(248,248,248);
+padding-bottom: 130px !important;
+}
+
+.landing4{
+    background-color: black;
+}
+
+.custom-link-nav{
+    color: #121212 !important;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "circular-bold";
+}
+
+.custom-link-nav:hover{
+    color:#1D4C85 !important;
+}
+
+.btn-custom-color{
+    background-color: black;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border-radius: 40px !important;
+    text-transform: uppercase;
+    font-size: 0.85em !important;
+    height: 48px;
+}
+
+.btn-custom-color:hover{
+    transform: scale(1.05);
+    transition: 2s scaleX ease;
+}
+
+.btn-custom-color2{
+    background-color: #1DB954;
+    border: none;
+    width: 100%;
+    margin-top: 144px;
+}
+
+.hook{
+    font-size: 2.7em !important;
+    font-weight: bold;
+}
+
+.custom-size-icon{
+    width: 142px;
+    height: 142px;
+}
+
+.custom-btn2{
+    background-color: rgb(63, 158, 215);
+    font-size: 0.8em;
+    font-family: "circular-Light",Arial, Helvetica, sans-serif;
+    border: none;
+    letter-spacing: 0.01em;
+    padding: 7px 6px;
+}
+
+.check{
+    font-size: 1.2em;
+    color: rgb(212, 212, 212);
+    top: 0px;
+}
+
+.list-group-item{
+    border: none !important;
+    padding: 0;
+}
+
+.card{
+    -webkit-box-shadow: 9px 9px 30px -26px rgba(0,0,0,0.82);
+-moz-box-shadow: 9px 9px 30px -26px rgba(0,0,0,0.82);
+box-shadow: 9px 9px 30px -26px rgba(0,0,0,0.82);
+    border: none;
+}
+
+.last{
+    margin-top: 96px !important;
+}
